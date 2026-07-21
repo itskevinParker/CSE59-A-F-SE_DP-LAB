@@ -17,7 +17,7 @@ class ConfigurationManager {
     }
 }
 
-public class Main4 {
+public class Main4  {
     public static void main(String[] args) {
         ConfigurationManager config1 = ConfigurationManager.getInstance();
         ConfigurationManager config2 = ConfigurationManager.getInstance();
