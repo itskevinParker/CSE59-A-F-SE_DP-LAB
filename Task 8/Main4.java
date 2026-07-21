@@ -22,7 +22,7 @@ public class Main4 {
         ConfigurationManager config1 = ConfigurationManager.getInstance();
         ConfigurationManager config2 = ConfigurationManager.getInstance();
         
-        System.out.println("Same instance in memory? " + (config1 == config2)); // Output: true
+        System.out.println("Same instance in memory? " + (config1 == config2));
     }
 }
 
