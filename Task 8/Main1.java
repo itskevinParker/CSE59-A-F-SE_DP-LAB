@@ -1,4 +1,3 @@
-
 class HttpRequest {
     private final String url;
     private final String method;
@@ -34,7 +33,7 @@ public static class Builder {
         }
     }
 
-    public class Main {
+    public class Main1 {
         public static void main (String[] args) {
             HttpRequest req = new HttpRequest.Builder(("https://api.example.com/data"))
                              .setMethod("POST")
